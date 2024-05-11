@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+
+          div{
+
+text-align:center;
+
+background-color:orange;
+height:90px;
+width: 900px;
+font-family:courier;
+}
+
+h1{
+color:Pink;
+margin-top: 0;/* Remove top margin */
+margin-bottom: 0; /* Remove bottom margin */
+padding-top: 0; /* Remove top padding */
+padding-bottom: 0; /* Remove bottom padding */
+  }
+p{
+  color:blue;
+  margin-top: 0;
+  margin-bottom: 0; /* Remove bottom margin */
+padding-top: 0; /* Remove top padding */
+padding-bottom: 0; /* Remove bottom padding */
+ 
+  }
+
+ </style>
+
+ <div>
+
+ <h1 style="text-align:center;font-size:40px;"> Healthy Food and Services </h1>
+
+
+ <p style="text-align:center;font-family:serif;"> We provide weekly healthy food and services in and around chennai and <br> we also have three plans available with us. Do check out the below details to find the information
+about each and every plan </p>
+
+
+ </div>
+
+ <img src="https://media.istockphoto.com/id/1457433817/photo/group-of-healthy-food-for-flexitarian-diet.jpg?s=1024x1024&w=is&k=20&c=iBBM7YTn5Rf-QhCd0kkvFaDNLV6Rb02iMQlS39LSSTI=" height=400px width=900px alt="CHargee bee">
+
+ <h1 style="text-align:center;">Basic Plan</h1>
+
+</body>
+</html>
+
