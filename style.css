@@ -52,7 +52,7 @@ input {
     color:white
 }
 button:hover{
-    cursor;pointer;
+    cursor:pointer;
     background-color: blueviolet;
 }
 
