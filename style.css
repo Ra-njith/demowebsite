@@ -1,23 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
 }
 
 nav {
-    background-color: black;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: floralwhite;
 }
 
-li, h1, ul {
-    display: inline-block;
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
 }
 
 li {
     color: green;
-}
-
-ul {
-    margin-left: 80%;
+    font-size: medium;
+    margin: 0 10px;
 }
 
 li:hover {
@@ -25,47 +33,17 @@ li:hover {
     color: blueviolet;
 }
 
+.searchbar {
+    text-align: center;
+    padding: 50px;
+    background-color: cadetblue;
+}
+
 input {
     padding: 15px;
     width: 50%;
 }
 
-.searchbar {
+.products {
     text-align: center;
-    padding: 50px;
-}
-
-.box {
-    border: 2px solid black;
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-}
-
-.Products {
-    text-align: center;
-}
-
-.box:hover{
-
-    background-color: rgba(166, 81, 32, 0.239);
-    color:white
-}
-button:hover{
-    cursor:pointer;
-    background-color: blueviolet;
-}
-
-.about {
-
-    color:navy;
-    text-align:center;
-    
-}
-.contact{
-    margin-top: 40px;
-    text-align: center;
-    background-color:black;
-    color:bisque;
-    height:100px;
-}
+    background-color: lightsteelblue;
